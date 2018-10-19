@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Starter blog',
-    author: '',
-    description: 'Starter blog',
+    title: 'Wiesław Młynarski',
+    author: 'Wiesław Młynarski',
+    description: 'Developer blog',
     siteUrl: 'https://wieslawmlynarski.github.io/',
   },
   pathPrefix: '/',
