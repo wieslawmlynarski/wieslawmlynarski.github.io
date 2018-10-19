@@ -48,13 +48,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Wiesław Młynarski - developer blog`,
+        short_name: `Wiesław Młynarski - developer blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
+        icon: `src/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,

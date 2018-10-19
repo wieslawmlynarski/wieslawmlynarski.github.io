@@ -1,6 +1,4 @@
 ---
-title: How this site was deployed
+title: Publishing your first site 
 date: "2018-08-19T22:12:03.284Z"
 ---
-
-Hello 
