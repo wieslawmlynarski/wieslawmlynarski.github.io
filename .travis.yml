@@ -3,7 +3,6 @@ language: node_js
 
 os:
   - linux
-  - osx
 
 node_js:
   - "8"
@@ -20,7 +19,6 @@ before_deploy:
 stages:
 - test
 - name: deploy
-  if: branch = master-page
 
 jobs:
   include:
@@ -35,7 +33,7 @@ jobs:
       keep-history: true
       local-dir: public
       on:
-        branch: master
+        branch: master-page
 
 
 
