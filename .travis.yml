@@ -5,11 +5,32 @@ os:
   - osx
 
 node_js:
-  - "node"
-  - "lts/*"
-  - "7"
   - "8"
 
-script:
-  - npm install
-  - npm run lint
+stages:
+- test
+- name: deploy
+  if: branch = gh-pages
+
+jobs:
+  include:
+  - stage: test
+    script:
+    - npm install
+    - npm run lint
+  - stage: deploy
+    script:
+    - npm install
+    - npm build
+    deploy:
+      provider: pages
+      skip-cleanup: true
+      github-token: $GITHUB_TOKEN
+      keep-history: true
+      local-dir: public
+      on:
+        branch: master
+
+
+
+

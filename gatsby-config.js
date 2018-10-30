@@ -3,7 +3,7 @@ module.exports = {
     title: 'Wiesław Młynarski',
     author: 'Wiesław Młynarski',
     description: 'Developer blog',
-    siteUrl: 'https://wieslawmlynarski.github.io/',
+    siteUrl: 'https://wieslaw.mlynarski.cc',
   },
   pathPrefix: '/',
   plugins: [
@@ -37,13 +37,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    // `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     //trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
