@@ -1,3 +1,8 @@
+stages:
+- test
+- name: deploy
+  if: branch = gh-pages
+
 language: node_js
 
 os:
@@ -8,11 +13,6 @@ node_js:
   - "8"
 
 script: echo "Running tests against $(node -v) ..."
-
-stages:
-- test
-- name: deploy
-  if: branch = gh-pages
 
 jobs:
   include:
