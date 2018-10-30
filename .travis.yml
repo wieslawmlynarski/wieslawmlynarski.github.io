@@ -20,7 +20,7 @@ before_deploy:
 stages:
 - test
 - name: deploy
-  if: branch = gh-pages
+  if: branch = master-page
 
 jobs:
   include:
