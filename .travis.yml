@@ -35,7 +35,7 @@ jobs:
       target-branch: master
       fqdn: mlynarski.cc
       on:
-        branch: master-page
+        branch: master
   - deploy:
       provider: pages
       repo: wieslawmlynarski/wieslaw.mlynarski.cc
@@ -46,5 +46,5 @@ jobs:
       fqdn: wieslaw.mlynarski.cc
       target-branch: master
       on:
-        branch: master-page
+        branch: master
 
