@@ -25,7 +25,8 @@ jobs:
   - stage: test
     script:
       - npm run test
-  - deploy:
+  - stage: deploy
+    deploy:
       provider: pages
       repo: wieslawmlynarski/mlynarski.cc
       skip-cleanup: true
