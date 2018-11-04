@@ -5,7 +5,7 @@ date: "2018-08-19T22:12:03.284Z"
 
 # Intro
 
-Publishing a personal site got very easy this days. 
+Publishing a personal site got very easy these days. 
 There are thousands of ways of doing that.
 In this article I wanted to describe you how I made my setup for this page.
 Because I had little experience or opportunity  
