@@ -4,23 +4,27 @@ date: "2018-08-19T22:12:03.284Z"
 ---
 
 # Intro
-Publishing a personal site got very easy this days.
+
+Publishing a personal site got very easy this days. 
 There are thousands of ways of doing that.
-In this article I wanted to describe you how this site is beeing published.
+In this article I wanted to describe you how I made my setup for this page.
+Because I had little experience or opportunity  
 
 My requirements were:
+ - minimum effort to setup and operate
+ - easy to author new articles
  - zero or no cost of hosting
- - custom domains (mlynarski.cc and wieslaw.mlynarski.cc)
+ - my personal domains (mlynarski.cc and wieslaw.mlynarski.cc)
  - continuous integration
  - easy way of authoring articles
  - code can be public
- 
+  
+## Tools and Services
 
-# Tools Services
+The tools I chose for this are 
 
-- gatsby
-- github
-- travis-ci
-- namecheap.com
+- [GatsbyJs](https://www.gatsbyjs.org/)
+- [Github Pages](https://pages.github.com/)
+- [Travis Ci](https://travis-ci.org/)
+- [namecheap.com](https://www.namecheap.com)
 
-# 
