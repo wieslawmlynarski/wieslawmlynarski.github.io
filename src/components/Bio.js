@@ -27,7 +27,7 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          TO DO:
+            Written by <strong>Wiesław Młynarski</strong> who lives in Berlin
         </p>
       </div>
     )
