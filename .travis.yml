@@ -35,7 +35,15 @@ jobs:
       target-branch: master
       on:
         branch: master-page
-
-
+  - deploy:
+      provider: pages
+      repo: wieslawmlynarski/mlynarski.cc
+      skip-cleanup: true
+      github-token: $GITHUB_TOKEN
+      keep-history: true
+      local-dir: public
+      target-branch: master
+      on:
+        branch: master-page
 
 
